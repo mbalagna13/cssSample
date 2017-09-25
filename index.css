@@ -1,0 +1,38 @@
+.yupyup {
+  display: flex;
+}
+@media only screen and (min-width: 500px) {
+
+  .yupyup {
+    display: flex;
+  }
+  .red {
+    background-color: red;
+    height: 80vh;
+    width: 50%;
+  }
+
+  .blue {
+    background-color: blue;
+    height: 80vh;
+    width: 50%;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .yupyup {
+    display: flex;
+  }
+
+  .red {
+    background-color: red;
+    width:80%;
+    height:50vh;
+  }
+  .blue {
+    background-color: blue;
+    width:20%;
+    height:40vh;
+  }
+}
